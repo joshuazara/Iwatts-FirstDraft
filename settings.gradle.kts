@@ -16,10 +16,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        jcenter()
+        maven { url = uri("https://jitpack.io") }  // Add this for MPAndroidChart
     }
 }
-
 
 rootProject.name = "Iwatts-FirstDraft"
 include(":app")
